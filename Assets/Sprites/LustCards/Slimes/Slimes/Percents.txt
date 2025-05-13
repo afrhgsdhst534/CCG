@@ -1,0 +1,21 @@
+0 - GoodSlime (HP: 3 / Attack: 0)
+    → USAGE: Heal To Max (Chance: 50%)
+1 - NeutralSlime (HP: 2 / Attack: 2)
+    → USAGE: +5 to stats (Chance: 22%)
+2 - BadSlime (HP: 1 / Attack: 0)
+    → MAGIC_POWER: +3
+    → PENETRATION: Deals damage equal to MAGIC_POWER
+    → AURA: MAGIC_POWER += 3 (Chance: 14%)
+3 - LostSlime (HP: 1 / Charges: 1)
+    → USAGE: Kill 3 slimes to TRANSFORM into MonsterSlime (Chance: 1.455%)
+4 - RegenerativeSlime (HP: 5 / Attack: 2)
+    → Usage: Restore all health
+    → TIMER_1: Restore USAGE after delay(Chance: 1.005%)
+5 - ImpossibleSlime (HP: 3 / Attack: 2, Armor: 2)
+    → USAGE: Spawn this slime without triggering USAGE
+    → TIMER_1: Restore USAGE after delay (Chance: 0.802%)
+6 - MonsterSlime (HP:9 / Attack: 0)     
+    → USAGE: ABSORB: Gain 3 USAGES from consumed slimes(Chance: 0.406%)
+7 - SlimeLord (HP: 10 / Attack: 10)
+    → UNTARGETABLE
+    → USAGE: Destroy a random enemy card (Chance: 0.182%)
